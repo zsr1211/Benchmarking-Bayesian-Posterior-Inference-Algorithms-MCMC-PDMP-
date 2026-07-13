@@ -21,7 +21,7 @@ posterior_groups <- list(
   complex = summary_df$posterior[summary_df$complexity_withNA == "complex"]
 )
 # here, summary_df is the posterior classification result from laplace condition number
-# which is shown in the script "condition number check and visulization.R"
+# which comes from the result of script "condition number check and visulization.R"
 
 # check
 posterior_groups
