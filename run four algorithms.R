@@ -20,6 +20,8 @@ posterior_groups <- list(
   moderate = summary_df$posterior[summary_df$complexity_withNA == "moderate"],
   complex = summary_df$posterior[summary_df$complexity_withNA == "complex"]
 )
+# here, summary_df is the posterior classification result from laplace condition number
+# which is shown in the script "condition number check and visulization.R"
 
 # check
 posterior_groups
