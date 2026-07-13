@@ -1,6 +1,6 @@
 
 # load in data
-results_file <- "results12345_2.rds"
+results_file <- "results_condition_number.rds"
 results <- readRDS(results_file)
 summary_df <- do.call(rbind, results)
 
